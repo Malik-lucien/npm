@@ -1,17 +1,27 @@
 {
-  "name": "Dossier_NMP",
+  "name": "dossier_nmp",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "imagemin": "^7.0.1",
-    "imagemin-pngquant": "^8.0.0"
+    "imagemin-pngquant": "^8.0.0",
+    "vue-router": "^3.1.6"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compress": "node img_quant.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malik-lucien/npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Malik-lucien/npm/issues"
+  },
+  "homepage": "https://github.com/Malik-lucien/npm#readme",
+  "description": ""
 }
